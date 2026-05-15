@@ -340,7 +340,7 @@ function checkSpecialViolations(text) {
             if ((line.includes("السيدات") || line.includes("المعتمدين")) && user.isWomen) {
                 if (userCodeClean) {
                     if (normalizedAllCodes.includes(userCodeClean)) {
-                         issues.push(`الفنيه **${user.nickname}** كودها **(${user.code})** مكتوب بالخطأ تحت في الاكواد.`);
+                         issues.push(`الكادر النسئى **${user.nickname}** كودها **(${user.code})** كودها مكتوب تحت في الاكواد في تقرير النائب.`);
                     }
                 }
             }
